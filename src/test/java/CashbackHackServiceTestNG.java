@@ -41,7 +41,7 @@ public class CashbackHackServiceTestNG {
     public void testSum1000() {
         int amount = 1000;
         int actual =service.remain(amount);
-        int expected = 1000;
+        int expected = 0;
         assertEquals(expected,actual);
     }
     @Test
